@@ -1,0 +1,835 @@
+/*============================
+   Google Fonts
+==============================*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*============================
+   Themes CSS File
+==============================*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+}
+h6{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*============================
+   Header Section CSS File
+==============================*/
+.header-section {
+    position: sticky;
+    background: #000;
+    padding: 15px 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav-item .nav-link{
+    color: #fff;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-item .nav-link:hover{
+    color: #ff8b38;
+}
+.navbar-toggler {
+    background-color: #ff8b38;
+}
+/*============================
+  About Section CSS File
+==============================*/
+.about-section{
+    background: url(../images/about-bg.png) no-repeat top center;
+    background-size: cover;
+    padding: 180px 0;
+}
+.about-section .about-logo{
+    width: 160px;
+}
+.about-section h1{
+    color: #d5d5d5;
+    font-size: 40px;
+    margin: 30px 0;
+}
+.about-section .about-separetor{
+    background: #d5d5d5;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+.about-section h6{
+    color: #d5d5d5;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.about-section .about-btn{
+    border: 2px solid #d5d5d5;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+.about-section .about-btn:hover{
+    background: #d5d5d5;
+    color: #333;
+}
+
+/*Get Started Section*/
+.get-started{
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+.get-started .started-title{
+    background: #f5f5f5;
+    height: 16%;
+    width: 100%;
+}
+.get-started .started-title h3{
+    padding: 14px;
+    font-size: 22px;
+    text-align: center;
+}
+.get-started .started-title h3 span{
+    color: #fe9b5b;
+}
+.mb-3{
+    padding: 0px 20px;
+}
+.get-started .form-control{
+    outline: none;
+    border-color: #fff;
+    border-bottom: 2px solid #d6d6d6;
+    border-radius: 0;
+    margin-bottom: 40px;
+    box-shadow: none;
+}
+.started-btn{
+    display: block;
+    margin-top: 55px;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    background: #ff8b38;
+    border: 0;
+    padding: 15px 0;
+}
+
+/*============================
+  Social Section CSS File
+==============================*/
+.social-section{
+    background: #fff;
+    padding: 30px 0;
+}
+.social-section h4{
+    font-size: 20px;
+}
+.social-section p{
+    font-size: 14px;
+    color: #86878b;
+}
+.social-section ul{
+    padding: 0;
+    list-style: none;
+    display: block;
+    margin-top: 25px!important;
+}
+.social-section ul li{
+    padding-left: 50px;
+    display: inline;
+    align-items: center;
+}
+.social-section ul li i{
+    margin: 0 auto;
+    font-size: 40px;
+    color: #cccccc;
+    transition: all 0.3s ease-in-out;
+}
+.social-section ul li i:hover{
+    color:#ff8b38;
+}
+
+/*============================
+  Features CSS File
+==============================*/
+.features-section{
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+.tab-item{
+
+}
+.tab-item ul{
+    padding: 0px;
+    list-style: none;
+}
+.tab-item ul li{
+    background: #333333;
+    height: 110px;
+    width: 120px;
+    line-height: 115px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 2px 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.tab-item .active{
+    background: #ff8b38;
+}
+.tab-item ul li:hover{
+    background: #ff8b38;
+}
+
+/*tab-one*/
+.tab-one h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.tab-one p{
+    color: #86878b;
+    font-size: 14px;
+    
+}
+.tab-one h6{
+    color: #86878b;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.tab-one .tab-one-btn{
+    background: #ff8b38;
+    padding: 14px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 1px solid #ff8b38;
+    transition: all 0.3s ease-in-out;
+}
+.tab-one .tab-one-btn:hover{
+    background: transparent;
+    border: 1px solid #ff8b38;
+    color: #333;
+}
+.features-img img{
+    width: 340px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+/*tab-two*/
+.tab-two h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.tab-two p{
+    color: #86878b;
+    font-size: 14px;
+    
+}
+.tab-two h6{
+    color: #86878b;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.tab-two .tab-two-btn{
+    background: #ff8b38;
+    padding: 14px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 1px solid #ff8b38;
+    transition: all 0.3s ease-in-out;
+}
+.tab-two .tab-two-btn:hover{
+    background: transparent;
+    border: 1px solid #ff8b38;
+    color: #333;
+}
+
+/*tab-three*/
+.tab-three h4{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.tab-three p{
+    color: #86878b;
+    font-size: 14px;
+    
+}
+.tab-three h6{
+    color: #86878b;
+    font-size: 15px;
+    margin-bottom: 60px;
+}
+.tab-three .tab-three-btn{
+    background: #ff8b38;
+    padding: 14px 30px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    border: 1px solid #ff8b38;
+    transition: all 0.3s ease-in-out;
+}
+.tab-three .tab-three-btn:hover{
+    background: transparent;
+    border: 1px solid #ff8b38;
+    color: #333;
+}
+
+/*============================
+  Features Section Two CSS File
+==============================*/
+.features-section-two{
+    padding: 80px 0;
+}
+.features-two-content{
+    
+}
+.features-two-content h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+}
+.features-two-content h6{
+    font-size: 15px;
+}
+.features-two-content .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px 0;
+}
+.features-item-list{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.features-icon{
+    margin-top: 18px;
+}
+.features-icon .fa-cloud-arrow-up{
+    font-size: 20px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+}
+.features-icon .fa-cloud-arrow-down{
+    font-size: 20px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+}
+.features-title{
+    padding-left: 30px;
+}
+.features-title h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.features-title h6{
+    font-size: 15px;
+    color: #86878b;
+}
+/*============================
+  Features Section Three CSS File
+==============================*/
+.features-section-three{
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+.features-three-item{
+
+}
+.features-three-item h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #333333;
+}
+.features-three-item .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px 0;
+}
+.features-three-item p{
+    font-size: 16px;
+    color: #a6a7a9
+}
+/*============================
+  Process Section Css File
+==============================*/
+.process-section{
+    padding: 80px;
+}
+.process-section h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.process-section .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px auto;
+}
+.process-section p{
+    font-size: 16px;
+    color: #a6a7a9;
+    text-align: center;
+}
+/* prices item*/
+.item-one{
+    align-items: center;
+    padding-top: 35px;
+}
+.item-one .fa-solid{
+    font-size: 26px;
+    color: #ff8b38;
+    border: 2px solid #ff8b38;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.item-one h3{
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*============================
+  Pricing Section Three CSS File
+==============================*/
+.pricing-section{
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+.pricing-section h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-section .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px auto;
+}
+.pricing-section p{
+    font-size: 16px;
+    color: #a6a7a9;
+    text-align: center;
+}
+.pricing-box{
+    background: #333;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -32px;
+}
+.pricing-box:hover{
+    margin-bottom: 0px;
+}
+.pricing-box .box-top{
+
+}
+.pricing-box .box-top h5{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 0;
+    border-bottom: 1px solid #f5f5f5;
+
+}
+.pricing-box .box-top h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.pricing-box .box-top h1 span{
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 700;
+}
+.pricing-box .box-top p{
+    color: #999999;
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 14px;
+}
+.pricing-box .box-title{
+    height: 38px;
+    text-align: center;
+    background: #ff8b38;
+    padding: 9px 0;
+}
+.pricing-box .box-title h6{
+    background: #ff8b38;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pricing-section ul{
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+.pricing-section ul:hover{
+    transition: all 0.3s ease-in-out;
+}
+.pricing-section ul li{
+    list-style: none;
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #f5f5f5;
+    text-align: center;
+    color: #86878b;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/*============================
+  Testimonials-section CSS File
+==============================*/
+.testimonials-section{
+    padding: 80px 0;
+}
+.testimonials-section h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.testimonials-section .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px auto;
+}
+.testimonials-section p{
+    font-size: 16px;
+    color: #a6a7a9;
+    text-align: center;
+}
+.testimonials-items{
+    padding-top: 20px;
+}
+.testimonials-items .testimonials-text{
+    position: relative;
+    background: rgb(245, 245, 245);
+    padding: 20px 10px;
+    margin: 0 34px;
+}
+.testimonials-items .testimonials-text h6{
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    font-style: italic;
+}
+.testimonials-items .testimonials-text .testimonials-box{
+    position: absolute;
+    background: #f5f5f5;
+    height: 30px;
+    width: 30px;
+    left: 24px;
+    transform: rotate(45deg);
+}
+.testimonials-section .testi-img{
+    padding-top: 20px;
+    padding-left: 38px;
+}
+.testimonials-img{
+    display: flex;
+}
+.testimonials-img .img-title{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.img-title h4{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+}
+.img-title h5{
+    font-size: 16px;
+    color: #a6a7a9;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 30% !important;
+}
+/*============================
+  Custon Section CSS File
+==============================*/
+.custom-section{
+    background: url(../images/custom-section-bg.png) no-repeat center top;
+    background-size: cover;
+    padding: 80px 0;
+}
+.custom-section h2{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.custom-section .content-separetor{
+    background: #fff;
+    height: 3px;
+    width: 80px;
+    margin: 32px auto;
+}
+.custom-section p{
+    font-size: 20px;
+    color: #a6a7a9;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 20px;
+}
+.custom-section .about-btn{
+    border: 2px solid #d5d5d5;
+    padding: 10px 30px;
+    width: 146px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    margin: 18px auto 0;
+}
+.custom-section .about-btn:hover{
+    background: #d5d5d5;
+    color: #333;
+}
+
+/*============================
+  Contact Us Section CSS File
+==============================*/
+.contact-us{
+    padding: 80px 0;
+}
+.contact-us h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-us .content-separetor{
+    background: #ff8b38;
+    height: 3px;
+    width: 80px;
+    margin: 32px auto;
+}
+.contact-us p{
+    font-size: 16px;
+    color: #a6a7a9;
+    text-align: center;
+}
+.contact-form{
+    padding-top: 10px;
+}
+.contact-form .left-side{
+    padding-right: 20px;
+}
+.contact-form .form-control{
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    outline: none;
+    border-radius: 0px;
+    color: #333;
+    box-shadow: none;
+    margin: 30px 0 0;
+    transition: all 0.3s ease-in-out;
+}
+.contact-form .form-control:hover{
+    border-bottom: 2px solid #333;
+}
+.contact-form .form-control-msg{
+    border: none;
+    border-bottom: 2px solid #d6d6d6;
+    outline: none;
+    border-radius: 0px;
+    color: #333;
+    box-shadow: none;
+    margin: 30px 0 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.contact-form .form-control-msg:hover{
+    border-bottom: 2px solid #333;
+}
+.btn-submit{
+    display: block;
+    align-items: center;
+    margin: 16px auto;
+    padding: 10px 25px;
+    background: #ff9b51;
+    border: 2px solid #ff9b51;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.btn-submit:hover{
+    background: transparent;
+    border: 2px solid #ff9b51;
+    color: #333;
+}
+
+/*============================
+  Footer Section CSS File
+==============================*/
+.footer-section{
+    background: #000;
+    padding: 25px 0;
+}
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.footer-section ul li{
+    display: inline;
+}
+.footer-section ul li i{
+    text-align: center;
+    padding: 0 15px;
+    font-size: 30px;
+    color: #cccccc;
+    transition: all 0.3s ease-in-out;
+}
+.footer-section ul li i:hover{
+    color: #ff9b51;
+}
+.footer-section p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    color: #cccccc;
+}
+
+/*=======================
+   Media Quarey
+==========================*/
+
+/* For Nootbook Version */
+@media (min-width: 769px) and (max-width: 990px){
+
+}
+
+/* For Tablet Version */
+@media (min-width: 577px) and (max-width: 768px){
+
+}
+
+/* For Mobiel Version */
+@media (min-width: 320px) and (max-width: 576px){
+    .logo-img {width: 80%}
+    .navbar-nav {align-items: center;}
+    .about-section {padding: 45px 0;}
+    .about-section .about-logo {width: 100px;}
+    .about-section h1 {font-size: 22px;}
+    .about-section .about-separetor {height: 3px; width: 80px;}
+    .about-section h6 {font-size: 14px; margin-bottom: 40px;}
+    .about-section .about-btn {padding: 5px 16px; font-size: 14px; margin: 0 auto; display: block; width: 100px;}
+    .get-started {height: 82%; width: 82%; margin-top: 36px;}
+    .get-started .started-title h3 {padding: 14px; font-size: 16px; font-weight: 700;}
+    .get-started .form-control{margin-bottom: 20px; font-size: 14px;}
+    .started-btn{margin-top: 34px; font-size: 15px; padding: 13px 0;}
+    .social-section{padding: 20px 0 0 0;}
+    .social-section h4 {text-align: center;}
+    .social-section p {text-align: center;}
+    .social-section ul {margin-top: 15px!important; text-align: center;}
+    .social-section ul li{padding-left: 0px;}
+    .social-section ul li i{font-size: 26px; padding-left: 13px;}
+    .features-section{padding: 60px 0;}
+    .tab-item{margin-bottom: 10px; text-align: center;}
+    .tab-item ul{display: inline-flex;}
+    .tab-item ul li{width: 98px; height: 98px; line-height: 98px; margin: 0px 2px;}
+    .tab-one h4 {font-size: 19px; margin-bottom: 20px; text-align: center;}
+    .tab-one p {font-size: 13px; text-align: center;}
+    .tab-one h6 {font-size: 13px; margin-bottom: 35px; text-align: center;}
+    .tab-one .tab-one-btn{padding: 8px 19px; text-align: center; margin: 0 auto; display: block; width: 122px;font-size: 14px;}
+    .tab-two h4 {font-size: 19px; margin-bottom: 20px; text-align: center;}
+    .tab-two p {font-size: 13px; text-align: center;}
+    .tab-two h6 {font-size: 13px; margin-bottom: 35px; text-align: center;}
+    .tab-two .tab-two-btn{padding: 8px 19px; text-align: center; margin: 0 auto; display: block; width: 122px;font-size: 14px;}
+    .tab-three h4 {font-size: 19px; margin-bottom: 20px; text-align: center;}
+    .tab-three p {font-size: 13px; text-align: center;}
+    .tab-three h6 {font-size: 13px; margin-bottom: 35px; text-align: center;}
+    .tab-three .tab-three-btn{padding: 8px 19px; text-align: center; margin: 0 auto; display: block; width: 122px;font-size: 14px;}
+    .features-img img {width: 300px; padding-left: 8px; padding-top: 46px; margin: 0 auto; padding-right: 8px}
+    .features-section-two{padding: 36px 0;}
+    .features-twoimg{width: 300px; margin: 0 auto; display: block;}
+    .features-two-content h3{font-size: 22px; text-align: center; padding-top: 10px;}
+    .features-two-content .content-separetor {margin: 32px auto;}
+    .features-two-content h6{text-align: center; padding-bottom: 14px;}
+    .features-title h4 {font-size: 16px;}
+    .features-title p{font-size: 14px; font-weight: 500;}
+    .features-section-three{padding: 34px 0;}
+    .features-three-item h3{font-size: 22px; text-align: center;}
+    .features-three-item .content-separetor{margin: 32px auto;}
+    .features-three-item p{font-size: 14px; text-align: center;}
+    .features-threeimg{width: 300px; margin: 0 auto; display: block;}
+    .process-section{padding: 35px 0;}
+    .process-section h2 {font-size: 24px;}
+    .pricing-section{padding: 35px 0}
+    .pricing-section h2 {font-size: 24px;}
+    .testimonials-section{padding: 35px 0}
+    .testimonials-section h2{font-size: 24px;}
+    .custom-section{padding: 35px 0}
+    .custom-section h2{font-size: 24px;}
+    .contact-us{padding: 35px 0}
+    .contact-us h2{font-size: 24px;}
+    .footer-section ul li i{font-size: 20px; margin-bottom: 11px;}
+
+ 
+}
